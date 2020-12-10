@@ -1,0 +1,55 @@
+body
+{
+    background:repeating-linear-gradient( -90deg,#ffdc2b,#16e0bb,#e5e5e5,#7eed77);
+}
+
+#Buscador
+{
+    
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin: 0px 100px;
+}
+
+
+#useroption
+{ 
+padding: 5px;
+margin: 0px 150px;
+}
+
+
+#struser
+{
+
+background:linear-gradient(90deg,#ff23ff,#eeee33);
+color: white;
+position: relative;
+padding: 10 px;
+}
+
+
+#btnBuscaPeli
+{
+font-family: 'Poppins', sans-serif;
+position: relative;
+padding: 15px 500px;
+margin: 25px 250px;
+text-decoration: none;
+border-radius: 40px;
+letter-spacing: 1.3px;
+color: #fff;
+text-shadow: 80px;
+background:linear-gradient(-90deg,#ed182d,#f7f714);
+}
+
+th,td{
+    padding: 0px 100px;
+    
+}
+
+.table-hover
+{
+    margin-left: auto;
+    margin-right: auto;
+}

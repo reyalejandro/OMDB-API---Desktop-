@@ -1,0 +1,73 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OMDB API</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+        
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">OMDB API</div>
+            <div class="card-body card-block">
+                <div id="Buscador">
+                    <input type="text" id="struser" name="fname">
+                            <select name="pelis" id="useroption">
+                            <option value="movie">Películas</option>
+                              <option value="serie">Series</option>
+                              <option value="episode">Episodios</option>
+                            </select>
+                </div>
+               
+                
+                    <button type="button" id="btnBuscaPeli"  onclick="TraerData()" data-toggle="modal" data-target="#exampleModalCenter">Buscar</button>
+                      
+                  <div id="diverror">
+                  </div>
+                       
+                <div class="table-responsive">
+                <table id="tablapelis" class="table-hover table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Poster</th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col">Año</th>
+                      </tr>
+                    </thead>
+                    <tbody id="pelitable">
+                      <tr id="Posterrow">
+                          <!--Poster-->
+                      </tr>
+                    <tr id="Titlerow">
+                        <!--Titulo-->
+                      </tr>
+                      <tr id="Yearrow">
+                        <!--Año-->
+                      </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<script src="peliscode.js"></script></body>
+
+</html>

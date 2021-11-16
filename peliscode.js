@@ -28,7 +28,6 @@ const Validar = (respuesta) =>
             let node = document.createTextNode("No se encontró el elemento, no existe o lo escribió mal");
             para.appendChild(node);
             let element = document.getElementById("diverror");
-            // Ni idea de por que no cambia el color del texto
             element.style.color = "red";
             element.style.textAlign = "center";
             element.style.fontFamily = "Comic Sans MS";

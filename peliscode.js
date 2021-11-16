@@ -1,23 +1,4 @@
 
-/*                      NOTAS DEL TP:
-
-    Intenté hacer la alerta con un modal de la librería de Bootstrap, lo intenté de todas las formas que encontré y no pude. 
-    Por eso la advertencia es solo un <p>
-    
-    Intenté de dos formas:
-    puse el modal en javascript,lo guardaba dentro de una variable y lo mandaba al innerHTML de un div que guardaba ese modal
-   1- (Algo así:
-        let diverror = document.getElementById('errordiv')
-        let error = `(codigo html del modal más una variable que mandaba por parametro para que cambie su texto y diga x error)`
-        diverrror.innerHTML = error)
-
-
-
-     2- 
-     Puse el codigo en el html, y busque por internet como esconder el modal ya que si lo pongo en html aparece cada vez que le doy click al boton.
-     esto en teoría me dejaria esconder el modal $('#myModal').modal('hide');
-     pero no ayudo en absoluto
-    */ 
 
 
 const TraerData = () => 
